@@ -10,11 +10,11 @@ class TestToggleWidget : public QObject {
 private slots:
 
   // Define tests here
-  void testTogglet();
+  void testToggle();
 };
 
 // Implement the tests here
-void TestToggleWidget::testTogglet(){
+void TestToggleWidget::testToggle(){
     ToggleWidget widget;
 
     auto button = widget.findChild<QPushButton *>();
